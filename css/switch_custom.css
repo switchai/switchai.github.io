@@ -2,3 +2,23 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+ul.checklist.article li p.bold  {
+    font-size: 19px;
+}
+
+p a[href], h1 a[href], h2 a[href] {
+    border-bottom: solid 2px #11ce3e;
+    padding-left: 2px;
+    padding-right: 2px;
+    -webkit-transition: 120ms linear;
+    transition: 120ms linear;
+    transition-property: all;
+    -webkit-transition-property: background-color, color;
+    transition-property: background-color, color;
+}
+
+p a[href]:hover, h1 a[href]:hover, h2 a[href]:hover {
+    color: #fff;
+    background-color: #11ce3e;
+}
